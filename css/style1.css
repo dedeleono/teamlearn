@@ -1,0 +1,46 @@
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #171933 !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: #171933;
+}
+
+.input-nav {
+border-radius: 20px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #171933;
+    border-color: #171933;
+    border-radius: 20px;
+}
+
+.nav-item  a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #f6a225 !important;
+}
+
+.nav-item  a:hover {
+    color: #171933 !important;
+}
+
+.cart {
+    width: 25px;
+    height: auto;
+}
+
+.cart:hover {
+    color: #171933;
+}
+
+@media only screen and (min-width: 1400px){
+    .form-inline .input-group {
+        width: 500px;
+        margin-left: 200px;
+    }
+
+}
+
