@@ -7,7 +7,7 @@
 
 .navbar-brand {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #171933 !important;
+    color: #171933;
 }
 
 .navbar-light .navbar-toggler {
@@ -27,11 +27,11 @@ border-radius: 20px;
 
 .nav-item  a {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #f6a225 !important;
+    color: #f6a225;
 }
 
 .nav-item  a:hover {
-    color: #171933 !important;
+    color: #171933;
 }
 
 .cart {

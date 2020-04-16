@@ -5,7 +5,120 @@
     left: 0;
 }
 
+body{
+    height: 100%;
+
+}
+
 .perfil{
+    position: relative;
+    margin: 0;
+    padding: 4.5rem;
+}
+
+.profile-content{
+    margin-left: 5rem;
+}
+
+.img-fluid{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.userpic{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.profile-usertitle{
+    font-family: 'Lato', sans-serif;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.profile-userbuttons{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-color{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #000839;
+    color: white;
+
+}
+
+.btn-color:hover{
+    background-color: #f6a225;
+    color: white;
+}
+
+.btn-colo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #f6a225;
+    color: white;
+}
+
+.btn-colo:hover{
+    background-color: #000839;
+    color: white;
+}
+
+.sidebar{
+    border: 3px solid #000839;
+}
+
+
+.icon{
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.scroll{
+    overflow-y: scroll;
     position: absolute;
-    margin-top: 500rem;
+    height: 76.5%;
+    right: 0rem;
+    width: 75%;
+}
+
+/*Footer section */
+
+.footer{
+    background-color: #000839;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #f6a225;
+    width: 100%;
+    z-index: 1;
+}
+
+.tel{
+    font-size: 1.5rem;
+}
+
+.social-icon{
+    font-size: 2.3rem;
+    padding: 1rem 0.5rem;
+}
+
+/*User content section*/
+.cards-go{
+    padding: 0.5rem;
+    text-align: right;
+    margin-top: 0;
+}
+
+.course-title{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.card-title{
+    margin: 0rem;
+    padding: 0.5rem;
 }
