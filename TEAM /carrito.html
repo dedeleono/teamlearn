@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+    <title>Team Learning</title>
+    <link rel="icon" type="image/png"  href="Logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+            <a class="navbar-brand" href="#">Team Learning</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport" 
+                aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSuport">
+                <form class="form-inline">
+                    <div class="input-group">                    
+                        <input type="text" class="form-control input-nav" placeholder="Buscar">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-secondary"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Físico-Matemáticas</a>
+                          <a class="dropdown-item" href="#">Ciencias Biológicas</a>
+                          <a class="dropdown-item" href="#">Ciencias Sociales</a>
+                          <a class="dropdown-item" href="#">Artes y Humanidades</a>
+                          <a class="dropdown-item" href="#">Idiomas</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-value="miscursos">Mis Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-value="contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-value="carrito">
+                            <img class="cart" src="carrito.png" alt="carrito de compra">
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Mi Perfil</a>
+                          <a class="dropdown-item" href="#">Mis Cursos</a>
+                          <a class="dropdown-item" href="#">Mi Carrito</a>
+                          <a class="dropdown-item" href="#">Configuración</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="shopping-cart">
+            <div class="title">
+                Carrito de Compras
+            </div>
+        </div>
+                
+            <div class="item">
+                <div class="buttons">
+                    <span class="delete-btn"></span>
+                    <span class="like-btn"></span>
+                </div>
+
+                <div class="image">
+                    <img src="fisico_matematicas.jpg" height="140px" width="160px" alt="">
+                </div>
+                <div class="description">
+                    <span>FISICO-MATEMATICAS</span>
+                    <span>Nivel Básico</span>
+                    <span>Duración 1 mes</span>
+                </div>
+                <div class="quantity">
+                    <button class="plus-btn" type="button" name="button">
+                        <img src="plus.svg" alt="">
+                    </button>
+                    <input  type="text" name="name" value="1">
+                    <button class="minus-btn" type="button" name="button">
+                        <img src="minus.svg" alt="">
+                    </button>
+                </div>
+                <div class="Precio total">
+                    <input class="Precio" type="text" value=" $ 599.00">
+                </div>
+            </div>
+       
+            <div class="item">
+                <div class="buttons">
+                    <span class="delete-btn"></span>
+                    <span class="like-btn"></span>
+                </div>
+
+                <div class="image">
+                    <img src="ciencias biologicas.jpg" height="140px" width="160px"  alt="">
+                </div>
+                <div class="description">
+                    <span>CIENCIAS BIOLOGICAS</span>
+                    <span>curso Introductorio</span>
+                    <span>Duración Tres Meses</span>
+                </div>
+                <div class="quantity">
+                    <button class="plus-btn" type="button" name="button">
+                        <img src="plus.svg" alt="">
+                    </button>
+                    <input type="text" name="name" value="1">
+                    <button class="minus-btn" type="button" name="button">
+                        <img src="minus.svg" alt="">
+                    </button>
+                </div>
+                <div class="Precio total">
+                    <input class ="Precio" type="text" value=" $ 599.00">
+                    </div>
+            </div>
+
+            
+            <div class="item">
+                <div class="buttons">
+                    <span class="delete-btn"></span>
+                    <span class="like-btn"></span>
+                </div>
+    
+                <div class="image">
+                    <img src="ciencias-sociales.jpg" height="140px" width="160px"  alt="">
+                </div>
+                <div class="description">
+                    <span>CIENCIAS SOCIALES</span>
+                    <span>Curso Avanzado</span>
+                    <span>Duración 1 mes</span>
+                </div>
+                <div class="quantity">
+                    <button class="plus-btn" type="button" name="button">
+                        <img src="plus.svg" alt="">
+                    </button>
+                    <input type="text" name="name" value="1">
+                    <button class="minus-btn" type="button" name="button">
+                        <img src="minus.svg" alt="">
+                    </button>
+                </div>
+                <div class="Precio total">
+                    <input class ="Precio" type="text" value=" $ 599.00">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="buttons">
+                    <span class="delete-btn"></span>
+                    <span class="like-btn"></span>
+                </div>
+    
+                <div class="image">
+                    <img src="artes_humanidades.jpg" height="140px" width="160px"  alt="">
+                </div>
+                <div class="description">
+                    <span>ARTES Y HUMANIDADES</span>
+                    <span>Introductorio</span>
+                    <span>Duración 1 mes</span>
+                </div>
+                <div class="quantity">
+                    <button class="plus-btn" type="button" name="button">
+                        <img src="plus.svg" alt="">
+                    </button>
+                    <input type="text" name="name" value="1">
+                    <button class="minus-btn" type="button" name="button">
+                        <img src="minus.svg" alt="">
+                    </button>
+                </div>
+                <div class="Precio total">
+                    <input class ="Precio" type="text" value=" $ 599.00">
+                    </div>
+            </div>
+
+            <div class="item">
+                <div class="buttons">
+                    <span class="delete-btn"></span>
+                    <span class="like-btn"></span>
+                </div>
+        
+                <div class="image">
+                    <img src="idiomas.jpg" height="140px" width="160px"  alt="">
+                </div>
+                <div class="description">
+                    <span>IDIOMAS</span>
+                    <span>Nivel medio</span>
+                    <span>Duración 1 mes</span>
+                </div>
+                <div class="quantity">
+                    <button class="plus-btn" type="button" name="button">
+                        <img src="plus.svg" alt="">
+                    </button>
+                    <input type="text" name="name" value="1">
+                    <button class="minus-btn" type="button" name="button">
+                        <img src="minus.svg" alt="">
+                    </button>
+                </div>
+                <div class="Precio total">
+                    <input class="Precio" type="text" value=" $ 599.00">
+                </div>
+            </div>
+            
+        
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
