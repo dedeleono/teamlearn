@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
-    <title>Team Learning</title>
+    <title>Mi Carrito - Team Learning</title>
     <link rel="icon" type="image/png"  href="Logo.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
-            <a class="navbar-brand" href="#">Team Learning</a>
+            <a class="navbar-brand" href="../index.html">Team Learning</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport" 
                 aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
                     <span class="navbar-toggler-icon"></span>
@@ -41,22 +41,22 @@
                           <a class="dropdown-item" href="#">Idiomas</a>
                       </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-value="miscursos">Mis Cursos</a>
+                        <a class="nav-link" href="../profile.html" data-value="miscursos">Mis Cursos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-value="contacto">Contacto</a>
+                        <a class="nav-link" href="../contacto.html" data-value="contacto">Contacto</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-value="carrito">
-                            <img class="cart" src="carrito.png" alt="carrito de compra">
+                    <li class="nav-item carrito">
+                        <a class="nav-link" href="carrito.html" data-value="carrito">
+                            <i class="fas fa-shopping-cart"></i>
                         </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Mi Perfil</a>
-                          <a class="dropdown-item" href="#">Mis Cursos</a>
-                          <a class="dropdown-item" href="#">Mi Carrito</a>
+                          <a class="dropdown-item" href="../profile.html">Mi Perfil</a>
+                          <a class="dropdown-item" href="../profile.html">Mis Cursos</a>
+                          <a class="dropdown-item" href="carrito.html">Mi Carrito</a>
                           <a class="dropdown-item" href="#">Configuración</a>
                     </li>
                 </ul>
@@ -67,7 +67,7 @@
     <main>
         <div class="shopping-cart">
             <div class="title">
-                Carrito de Compras
+                <h1>Carrito de Compras</h1>
             </div>
         </div>
                 
@@ -78,12 +78,15 @@
                 </div>
 
                 <div class="image">
-                    <img src="fisico_matematicas.jpg" height="140px" width="160px" alt="">
+                    <img src="curso-09.jpg" height="140px" width="160px" alt="">
                 </div>
                 <div class="description">
-                    <span>FISICO-MATEMATICAS</span>
-                    <span>Nivel Básico</span>
-                    <span>Duración 1 mes</span>
+                    <span class="curso" style="font-size: 20px;
+                    color: #f6a225;">ILUSTRACIÓN DIGITAL</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Básico</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Duración 1 mes</span>
                 </div>
                 <div class="quantity">
                     <button class="plus-btn" type="button" name="button">
@@ -94,8 +97,9 @@
                         <img src="minus.svg" alt="">
                     </button>
                 </div>
-                <div class="Precio total">
+                <div class="Precio total Precio-b">
                     <input class="Precio" type="text" value=" $ 599.00">
+                    <button class="btn btn-lg btn-2"><a href="../profile.html">Comprar</a></button>
                 </div>
             </div>
        
@@ -109,9 +113,12 @@
                     <img src="ciencias biologicas.jpg" height="140px" width="160px"  alt="">
                 </div>
                 <div class="description">
-                    <span>CIENCIAS BIOLOGICAS</span>
-                    <span>curso Introductorio</span>
-                    <span>Duración Tres Meses</span>
+                    <span class="curso" style="font-size: 20px;
+                    color: #f6a225;">SALUD ACTUAL</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Introductorio</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Duración Tres Meses</span>
                 </div>
                 <div class="quantity">
                     <button class="plus-btn" type="button" name="button">
@@ -138,9 +145,12 @@
                     <img src="ciencias-sociales.jpg" height="140px" width="160px"  alt="">
                 </div>
                 <div class="description">
-                    <span>CIENCIAS SOCIALES</span>
-                    <span>Curso Avanzado</span>
-                    <span>Duración 1 mes</span>
+                    <span class="curso" style="font-size: 20px;
+                    color: #f6a225;">COMUNICACIÓN VISUAL</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Avanzado</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Duración 1 mes</span>
                 </div>
                 <div class="quantity">
                     <button class="plus-btn" type="button" name="button">
@@ -166,9 +176,12 @@
                     <img src="artes_humanidades.jpg" height="140px" width="160px"  alt="">
                 </div>
                 <div class="description">
-                    <span>ARTES Y HUMANIDADES</span>
-                    <span>Introductorio</span>
-                    <span>Duración 1 mes</span>
+                    <span class="curso" style="font-size: 20px;
+                    color: #f6a225;">POP UP</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Introductorio</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Duración 1 mes</span>
                 </div>
                 <div class="quantity">
                     <button class="plus-btn" type="button" name="button">
@@ -194,9 +207,12 @@
                     <img src="idiomas.jpg" height="140px" width="160px"  alt="">
                 </div>
                 <div class="description">
-                    <span>IDIOMAS</span>
-                    <span>Nivel medio</span>
-                    <span>Duración 1 mes</span>
+                    <span class="curso" style="font-size: 20px;
+                    color: #f6a225;">BUSSINESS ENGLISH</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Nivel Medio</span>
+                    <span class="text" style="font-size: 18px;
+                    color: #005182;">Duración 1 mes</span>
                 </div>
                 <div class="quantity">
                     <button class="plus-btn" type="button" name="button">
@@ -215,11 +231,101 @@
         
 
     </main>
-
-    <footer>
-
-    </footer>
+    <section>
+        <footer class="page-footer font-small">
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 mx-auto mt-5 d-footer">
+                            <h6 class="mb-4 mt-Team">Team Learning</h6>
+                            <p>Una plataforma virtual para todos aquellas personas que buscan aprender sin fronteras</p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none d-footer">
+                        <div class="col-lg-2 col-md-2 col-sm-12 mx-auto mt-5 d-footer text-center text-md-left">
+                            <h6 class="mb-4">Cursos</h6>
+                            <p>
+                              <a href="#!">Físico-Matemáticas</a>
+                            </p>
+                            <p>
+                              <a href="#!">Ciencias Biológicas</a>
+                            </p>
+                            <p>
+                              <a href="#!">Ciencias Sociales</a>
+                            </p>
+                            <p>
+                              <a href="#!">Artes y Humanidades</a>
+                            </p>
+                            <p>
+                               <a href="#!">Idiomas</a>
+                            </p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none d-footer">
+                        <div class="col-lg-2 col-md-2 col-sm-12 mx-auto mt-5 d-footer text-center text-md-left">
+                            <h6 class="mb-4">Mi Cuenta</h6>
+                            <p>
+                              <a href="../profile.html">Mi Perfil</a>
+                            </p>
+                            <p>
+                              <a href="../profile.html">Mis Cursos</a>
+                            </p>
+                            <p>
+                              <a href="carrito.html">Mi Carrito</a>
+                            </p>
+                            <p>
+                              <a href="#!">Configuración</a>
+                            </p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none d-footer">
+                        <div class="col-lg-3 col-md-4 col-sm-12 mx-auto mt-5 text-center text-md-left">
+                            <h6 class="mb-4">Contacto</h6>
+                            <p>
+                              <i class="fas fa-home mr-3"></i> Roma Nte., CDMX 03300, MX</p>
+                            <p>
+                              <i class="fas fa-envelope mr-3"></i>contacto@teamlearning.com</p>
+                            <p>
+                              <i class="fas fa-phone mr-3"></i>56 01 50 82
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-8 col-md-7">
+                            <p class="text-center text-md-left">© 2020 Copyright:
+                              <a href="#">
+                                 <strong>Guachicanos</strong> by Rafael Saavedra
+                              </a>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-5">
+                            <div class="text-center text-md-right">
+                                <ul class="list-unstyled list-inline">
+                                  <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                      <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                      <i class="fab fa-twitter"></i>
+                                    </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                      <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="./js/script.js"></script>
 
 </html>

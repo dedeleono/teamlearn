@@ -1,13 +1,18 @@
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+/* ATRIBUTOS DE DESCRIPCION.HTML */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #005182;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
 
 .navbar-brand {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #171933;
+    color: #171933 !important;
 }
 
 .navbar-light .navbar-toggler {
@@ -27,11 +32,11 @@ border-radius: 20px;
 
 .nav-item  a {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #f6a225;
+    color: #f6a225 !important;
 }
 
 .nav-item  a:hover {
-    color: #171933;
+    color: #171933 !important;
 }
 
 .cart {
@@ -43,11 +48,224 @@ border-radius: 20px;
     color: #171933;
 }
 
+.header {
+        width: 100%;
+        background-image: url("../images/bg-desc-01.jpg");
+        background-size: contain;
+        background-position: center;
+        height: 400px;
+
+    }
+
+.description {
+    position: absolute;
+    top: 9rem;
+    
+}
+
+.description button {
+    background-color:  #005182;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.description button:hover {
+    background-color:   #171933;
+    color: #fff;
+}
+
+.description button > a {
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.description button > a:hover {
+    text-decoration: none;
+}
+
+.btn-2 {
+    background-color: #f6a225 !important;
+    margin-top: 1rem;
+}
+
+.btn-2:hover {
+    background-color:#171933 !important;;
+    color: #fff;
+}
+
+.description h1 {
+    color: #171933;
+}
+
+.precio {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 280px;
+}
+
+.precio h2 {
+    color: #fff;
+    padding-top: .5rem;
+    text-align: center;
+}
+
+#nav-cuenta {
+    color: #171933 !important;
+}
+
+.about {
+    padding: 2rem;
+    position: relative;
+}
+
+.about h2{
+    color:  #f6a225;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.row-left {
+    text-align: center;
+    
+}
+
+.about img {
+    height: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.about span {
+    font-size: 26px;
+}
+
+.curso {
+    margin-bottom: 3rem;
+}
+
+.curso h2 {
+    color:  #f6a225;
+    margin-bottom: 2rem;
+}
+
+.curso p {
+    text-align: justify;
+}
+
+.curso-item {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+}
+
+.ml-auto p ,span {
+    font-size: 20px;
+}
+
+.curso img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.img-curso {
+    width: 70px;
+}
+
+#footer {
+    background-color: #171933;
+}
+
+#footer h6 {
+    color: #f6a225;
+}
+
+#footer a, #footer p {
+    color: #fff;
+}
+
+#footer hr {
+    border-top: 1px solid #fff;
+}
+
+#footer a:hover {
+    color: #00a8cd;
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 1400px){
     .form-inline .input-group {
         width: 500px;
         margin-left: 200px;
     }
+}
+@media only screen and (max-width: 1597px){
+    .header {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size:105% 400px; 
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    .curso {
+        margin-bottom: 1rem;
+    }
+    .header {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size:135% 400px; 
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .about h3 {
+       text-align: center;
+    }
+    .about span {
+       display: flex;
+       justify-content: center;
+     }
+
+     .mt-5 {
+         margin-top: 1rem !important;
+     }
+
+     .mt-Team {
+        margin-top: 1rem;
+     }
+
+     .header {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size:175% 400px; 
+    }
 
 }
 
+@media only screen and (max-width: 375px){
+    .d-footer {
+        display: none;
+    }
+
+    .header {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size:220% 400px;
+        background-position: left; 
+    }
+
+    .description {
+        position: absolute;
+        top: 6.5rem;
+        
+    }
+}
+
+/* ATRIBUTOS DE CONTACTO.HTML */

@@ -1,13 +1,14 @@
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+body{
+    font-family: 'Lato', sans-serif;
+    color: #005182;
 }
 
-body{
-    height: 100%;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat Alternates', sans-serif;   
+}
 
+#nav-perfil {
+    color: #000839 !important;
 }
 
 .perfil{
@@ -16,15 +17,10 @@ body{
     padding: 4.5rem;
 }
 
-.profile-content{
-    margin-left: 5rem;
-}
-
-.img-fluid{
-    position: relative;
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
+.sidebar{
+    height: 480px;;
+    border: 3px solid #000839;
+    border-radius: 8px;
 }
 
 .userpic{
@@ -32,97 +28,110 @@ body{
     margin-top: 2rem;
 }
 
-.profile-usertitle{
-    font-family: 'Lato', sans-serif;
-    margin: 0.5rem 0;
+.userpic img{
+    height: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.profile-usertitle-name {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.profile-usertitle-job {
+    font-size: 20px;
     text-align: center;
 }
 
-.profile-userbuttons{
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
-
-.btn-color{
+.sidebar button {
+    background-color:  #005182;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: #fff;
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #000839;
-    color: white;
-
 }
 
-.btn-color:hover{
-    background-color: #f6a225;
-    color: white;
+.sidebar button:hover {
+    background-color:   #171933;
+    color: #fff;
 }
-
-.btn-colo{
-    font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #f6a225;
-    color: white;
-}
-
-.btn-colo:hover{
-    background-color: #000839;
-    color: white;
-}
-
-.options::marker{
-    color: #000839;
-}
-
-.sidebar{
-    border: 3px solid #000839;
-}
-
 
 .icon{
     padding-right: 0.5rem;
     font-size: 1.5rem;
 }
 
+.course-title {
+    color: #f6a225;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .scroll{
     overflow-y: scroll;
     position: absolute;
-    height: 76.5%;
+    height: 65%;
     right: 0rem;
-    width: 75%;
+    width: 65%;
 }
 
-/*Footer section */
-
-.footer{
-    background-color: #000839;
+.cards-go button {
+    background-color: #005182;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #f6a225;
-    width: 100%;
-    z-index: 1;
 }
 
-.tel{
-    font-size: 1.5rem;
+.cards-go button:hover {
+    background-color:#000839;
+    color: #fff;
 }
 
-.social-icon{
-    font-size: 2.3rem;
-    padding: 1rem 0.5rem;
-}
-
-/*User content section*/
 .cards-go{
     padding: 0.5rem;
     text-align: right;
     margin-top: 0;
 }
 
-.course-title{
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+.b-desc a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.card-title{
-    margin: 0rem;
-    padding: 0.5rem;
+.progress-bar {
+    background-color: #f6a225;
+}
+
+@media only screen and (max-width: 1024px){
+    .scroll{
+        overflow-y: scroll;
+        position: absolute;
+        height: 65%;
+        right: 0rem;
+        width: 60%;
+    }
+
+    .nav-item-perfil a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 752px){
+    .scroll{
+        position: relative;
+        width: max-content;
+    }
+    .nav-item-perfil a {
+        font-size: 16px;
+    }
+
+.sidebar{
+    height: 500px;;
+    border: 3px solid #000839;
+    border-radius: 8px;
+}
+
 }

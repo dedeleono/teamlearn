@@ -1,0 +1,189 @@
+html,body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/bg-cont.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    color: #005182;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #171933 !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: #171933;
+}
+
+.input-nav {
+border-radius: 20px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #171933;
+    border-color: #171933;
+    border-radius: 20px;
+}
+
+.nav-item  a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #f6a225 !important;
+}
+
+.nav-item  a:hover {
+    color: #171933 !important;
+}
+
+.cart {
+    width: 25px;
+    height: auto;
+}
+
+.cart:hover {
+    color: #171933;
+}
+
+#nav-contacto {
+    color: #171933 !important;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+
+}
+
+.description {
+    position: absolute;
+    top: 9rem;
+}
+
+.description h1 {
+    color: #171933;
+}
+
+.contact-form p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.contact-form button {
+    color: #fff;
+    background-color: #171933 !important;
+    border-radius: 8px;
+}
+
+.contact-form button:hover {
+    background-color: #00a8cd !important;
+}
+.btn-secondary {
+    border: none !important;
+}
+
+.contact-form input {
+    border: 1px solid #171933;
+}
+
+.contact-form textarea {
+    border: 1px solid #171933;
+}
+
+.contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 18px;
+}
+
+footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+
+}
+
+#footer {
+    background-color: #171933;
+    bottom: 0px;
+}
+
+#footer h6 {
+    color: #f6a225;
+}
+
+#footer a, #footer p {
+    color: #fff;
+}
+
+#footer hr {
+    border-top: 1px solid #fff;
+}
+
+#footer a:hover {
+    color: #00a8cd;
+    text-decoration: none;
+}
+
+.copyright p{
+   padding-top: 1rem;
+}
+
+.copy-links {
+    padding-top: 1rem;
+}
+
+@media only screen and (min-width: 1400px){
+    .form-inline .input-group {
+        width: 500px;
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    body {
+        background-position: center;
+        background-repeat: no-repeat;       
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body {
+        background-size: 170% 1024px;
+        background-position: center;
+        background-repeat: no-repeat;       
+    }
+}
+
+@media only screen and (max-width: 375px){
+    body {
+        background-image: url(../images/bg-cont-02.jpg);
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;       
+    }
+
+    .header {
+        width: 100%;
+        height: 250px;
+    
+    }
+
+    .description {
+        position: absolute;
+        top: 7rem;
+    }
+
+    .contact-form p {
+        color: #171933;
+    }
+
+}

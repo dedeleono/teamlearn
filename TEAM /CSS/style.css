@@ -1,3 +1,13 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #005182;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
 .navbar-brand {
     font-family: 'Montserrat Alternates', sans-serif;
     color: #171933 !important;
@@ -27,13 +37,39 @@ border-radius: 20px;
     color: #171933 !important;
 }
 
-.cart {
-    width: 25px;
-    height: auto;
+.carito {
+    color: #171933 !important;
 }
 
-.cart:hover {
-    color: #171933;
+
+.curso {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+}
+
+.Precio-b button {
+    background-color:  #005182;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.Precio-b button:hover {
+    background-color:   #171933;
+    color: #fff;
+}
+
+.Precio-b button > a {
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.Precio-b button > a:hover {
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 1400px){
@@ -59,30 +95,26 @@ body {
     width: 100%;
     height: 100px;
     margin: 0;
-    background-color:#00A8CC ;
-    font-family: 'Lato', sans-serif;
+   
+}
+
+.img-curso {
+    width: 50%;
 }
 
 .shopping-cart {
     width: 750px;
-    height: 100%;
+    height: 0px;
     margin: 30px auto;
-    margin-top: 60px;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0, 0.10);
-    border-radius: 6px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .title {
-    height: 60px;
-    border-bottom: 1px solid #E1E8EE;
-    padding: 20px 30px;
-    color: #5E6977;
-    font-size: 18px;
-    font-weight: 400;
+    color: #f6a225;
+    text-align: center;
 }
 
 .item {
@@ -170,6 +202,7 @@ description span:last-child {
 .quantity {
     padding-top: 20px;
     margin-right: 60px;
+    margin-left: 60px;
 }
 .quantity input {
     -webkit-appearance: none;
@@ -182,11 +215,6 @@ description span:last-child {
 }
    
 button[class*=btn] {
-    width: 30px;
-    height: 30px;
-    background-color: #E1E8EE;
-    border-radius: 6px;
-    border: none;
     cursor: pointer;
 }
 .minus-btn img {
@@ -237,3 +265,26 @@ input:focus {
         margin-right: 20px;
     }
 }   
+
+
+#footer {
+    background-color: #171933;
+    margin-top: 2rem;
+}
+
+#footer h6 {
+    color: #f6a225;
+}
+
+#footer a, #footer p {
+    color: #fff;
+}
+
+#footer hr {
+    border-top: 1px solid #fff;
+}
+
+#footer a:hover {
+    color: #00a8cd;
+    text-decoration: none;
+}

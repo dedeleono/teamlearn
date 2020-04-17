@@ -7,7 +7,7 @@
       <meta name="description" content="Team Learning, una plataforma virtual para todos aquellas personas que buscan aprender sin fronteras">
       <meta name="robots" content="NOFOLLOW">
       <link rel="icon" type="image/png"  href="./images/Logo.png">
-      <title>Team Learning</title>
+      <title>Mi Perfil - Team Learning</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
-        <a class="navbar-brand" href="#">Team Learning</a>
+        <a class="navbar-brand" href="index.html">Team Learning</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport" 
             aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
                 <span class="navbar-toggler-icon"></span>
@@ -42,20 +42,20 @@
                       <a class="dropdown-item" href="#">Idiomas</a>
                   </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-value="miscursos">Mis Cursos</a>
+                    <a class="nav-link" href="profile.html" data-value="miscursos">Mis Cursos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-value="contacto">Contacto</a>
+                    <a class="nav-link" href="contacto.html" data-value="contacto">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-value="carrito">
-                        <img class="cart" src="./images/carrito.png" alt="carrito de compra">
+                    <a class="nav-link" href="./TEAM /carrito.html" data-value="carrito">
+                        <i class="fas fa-shopping-cart"></i>
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
+                    <a id="nav-cuenta" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Mi Perfil</a>
+                      <a id="nav-perfil" class="dropdown-item" href="profile.html">Mi Perfil</a>
                       <a class="dropdown-item" href="#">Mis Cursos</a>
                       <a class="dropdown-item" href="#">Mi Carrito</a>
                       <a class="dropdown-item" href="#">Configuración</a>
@@ -63,73 +63,62 @@
             </ul>
         </div>
     </nav>
-    
     <section class="perfil">
         <div class="container">
             <div class="row">
-                <nav class="sidebar col-md-3">
-                    <!--Start user pic-->
+                <div class="col-lg-3 col-md-4 col-sm-12 sidebar my-4">
                     <div class="center">
                         <div class="userpic">
                             <img class="img-fluid" src="./images/diego.jpg" alt="Profile Picture">
                         </div>
                     </div>
-                    <!--End user pic-->
-
-                    <!-- SIDEBAR USER TITLE -->
-				<div class="profile-usertitle">
-					<div class="profile-usertitle-name">
-						Diego de León
-					</div>
-					<div class="profile-usertitle-job">
-						Cinta Blanca
-					</div>
-				</div>
-                <!-- END SIDEBAR USER TITLE -->
-                
-				<!-- SIDEBAR BUTTONS -->
-				<div class="profile-userbuttons">
-					<button type="button" class="btn btn-color btn-sm">Explorar</button>
-					<button type="button" class="btn btn-colo btn-sm">Ver Cursos</button>
-				</div>
-                <!-- END SIDEBAR BUTTONS -->
-                <hr>
+                    <div class="profile-usertitle">
+                        <div class="profile-usertitle-name">
+                            Diego de León
+                        </div>
+                        <div class="profile-usertitle-job">
+                            Cinta Blanca
+                        </div>
+                    </div>
+                    <div class="profile-userbuttons">
+                        <button type="button" class="btn btn-block">Editar</button>
+                    </div>
+                    <hr>
                     <div class="sidebar-sticky">
                         <ul class="nav flex-column">
-                            <li class="nav-item">
+                            <li class="nav-item nav-item-perfil">
                                 <a class="nav-link active options" href="#"><i class="far fa-user-circle icon"></i>
                                     Perfil
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item nav-item-perfil">
                                 <a class="nav-link options" href="#"><i class="fas fa-book-open icon"></i>
                                     Cursos
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item nav-item-perfil">
                                 <a class="nav-link " href="#"><i class="fas fa-cogs icon"></i>
                                     Configuración
                                 </a>
                             </li>
                         </ul>
                     </div>
-                </nav>
-
-                <div class="col-md-9 scroll">
+                </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 my-4 scroll mr-3">
                     <div class="profile-content">
                         <div>
                             <h2 class="course-title">Mis cursos</h2>
                         </div>
                         <div class="row">
                             
-                         <div class="col-lg-4 col-md-4 col-sm-6">
+                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card shadow p-3 mb-5 bg-white rounded" style="padding: 0;">
-                                <img src="./images/cursos.jpg" class="card-img-top" alt="Course picture">
+                                <img src="./images/Curso-10.jpg" class="card-img-top" alt="Course picture">
                             <div class="card-body">
                                 <h5 class="card-title">Course name</h5>
                             </div>
                             <div class="cards-go">
-                                <button type="button" class="btn btn-color btn-sm">Ir al curso</button>
+                                <button type="button" class="btn btn-color btn-sm b-desc"><a href="descripcion.html">Ir al curso</a></button>
                             </div>
                             <div class="card-footer">
                                 <div class="progress">
@@ -139,7 +128,7 @@
                             </div>
                          </div>
 
-                         <div class="col-lg-4 col-md-4 col-sm-6">
+                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card shadow p-3 mb-5 bg-white rounded" style="padding: 0;">
                                 <img src="./images/cursos.jpg" class="card-img-top" alt="Course picture">
                             <div class="card-body">
@@ -156,7 +145,7 @@
                             </div>
                          </div>
 
-                         <div class="col-lg-4 col-md-4 col-sm-6">
+                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card shadow p-3 mb-5 bg-white rounded" style="padding: 0;">
                                 <img src="./images/cursos.jpg" class="card-img-top" alt="Course picture">
                             <div class="card-body">
@@ -173,7 +162,7 @@
                             </div>
                          </div>
 
-                         <div class="col-lg-4 col-md-4 col-sm-6">
+                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card shadow p-3 mb-5 bg-white rounded" style="padding: 0;">
                                 <img src="./images/cursos.jpg" class="card-img-top" alt="Course picture">
                             <div class="card-body">
@@ -190,7 +179,7 @@
                             </div>
                          </div>
 
-                         <div class="col-lg-4 col-md-4 col-sm-6">
+                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card shadow p-3 mb-5 bg-white rounded" style="padding: 0;">
                                 <img src="./images/cursos.jpg" class="card-img-top" alt="Course picture">
                             <div class="card-body">
@@ -207,7 +196,7 @@
                             </div>
                          </div>
 
-                         <div class="col-lg-4 col-md-4 col-sm-6">
+                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card shadow p-3 mb-5 bg-white rounded" style="padding: 0;">
                                 <img src="./images/cursos.jpg" class="card-img-top" alt="Course picture">
                             <div class="card-body">
@@ -224,7 +213,7 @@
                             </div>
                          </div>
 
-                         <div class="col-lg-4 col-md-4 col-sm-6">
+                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card shadow p-3 mb-5 bg-white rounded" style="padding: 0;">
                                 <img src="./images/cursos.jpg" class="card-img-top" alt="Course picture">
                             <div class="card-body">
@@ -247,20 +236,98 @@
             </div>
         </div>
     </section>
-
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-            <div class="row">
-                <div class="numero col-lg-6 col-md-6 col-sm-4">
-                    <i class="fas fa-phone tel"></i><h3 class="num">800-584-9634</h3>
-                </div>
-                <div class="social col-lg-6 col-md-6 col-sm-4">
-                    <i class="fab fa-facebook social-icon"></i>
-                    <i class="fab fa-twitter social-icon"></i>
+    
+    <section>
+        <footer class="page-footer font-small">
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 mx-auto mt-5 d-footer">
+                            <h6 class="mb-4 mt-Team">Team Learning</h6>
+                            <p>Una plataforma virtual para todos aquellas personas que buscan aprender sin fronteras</p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none d-footer">
+                        <div class="col-lg-2 col-md-2 col-sm-12 mx-auto mt-5 d-footer text-center text-md-left">
+                            <h6 class="mb-4">Cursos</h6>
+                            <p>
+                              <a href="#!">Físico-Matemáticas</a>
+                            </p>
+                            <p>
+                              <a href="#!">Ciencias Biológicas</a>
+                            </p>
+                            <p>
+                              <a href="#!">Ciencias Sociales</a>
+                            </p>
+                            <p>
+                              <a href="#!">Artes y Humanidades</a>
+                            </p>
+                            <p>
+                               <a href="#!">Idiomas</a>
+                            </p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none d-footer">
+                        <div class="col-lg-2 col-md-2 col-sm-12 mx-auto mt-5 d-footer text-center text-md-left">
+                            <h6 class="mb-4">Mi Cuenta</h6>
+                            <p>
+                              <a href="profile.html">Mi Perfil</a>
+                            </p>
+                            <p>
+                              <a href="profile.html">Mis Cursos</a>
+                            </p>
+                            <p>
+                              <a href="./TEAM /carrito.html">Mi Carrito</a>
+                            </p>
+                            <p>
+                              <a href="#!">Configuración</a>
+                            </p>
+                        </div>
+                        <hr class="w-100 clearfix d-md-none d-footer">
+                        <div class="col-lg-3 col-md-4 col-sm-12 mx-auto mt-5 text-center text-md-left">
+                            <h6 class="mb-4">Contacto</h6>
+                            <p>
+                              <i class="fas fa-home mr-3"></i> Roma Nte., CDMX 03300, MX</p>
+                            <p>
+                              <i class="fas fa-envelope mr-3"></i>contacto@teamlearning.com</p>
+                            <p>
+                              <i class="fas fa-phone mr-3"></i>56 01 50 82
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-8 col-md-7">
+                            <p class="text-center text-md-left">© 2020 Copyright:
+                              <a href="#">
+                                 <strong>Guachicanos</strong> by Diego de León
+                              </a>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-5">
+                            <div class="text-center text-md-right">
+                                <ul class="list-unstyled list-inline">
+                                  <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                      <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                      <i class="fab fa-twitter"></i>
+                                    </a>
+                                  </li>
+                                  <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                      <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </section>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
