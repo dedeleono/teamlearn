@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,59 +11,689 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="./css/style1.css">
+      <link rel="stylesheet" href="./css/style-index.css">
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 </head>
+
+<header class="header">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="description">
+            <h1>Construye tu futuro <br> desde casa</h1>
+            <p>Desde matemáticas a idiomas. Conviértete en un profesional con nuestros cursos 100% Online. </p>
+        </div>
+    </div>
+</header>
+
+
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
-        <a class="navbar-brand" href="#">Team Learning</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport" 
-            aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarSuport">
-            <form class="form-inline">
-                <div class="input-group">                    
-                    <input type="text" class="form-control input-nav" placeholder="Buscar">
-                    <div class="input-group-append">
-                        <button type="button" class="btn btn-secondary"><i class="fa fa-search"></i></button>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+    <a class="navbar-brand" href="index.html">Team Learning</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport" 
+        aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarSuport">
+        <form class="form-inline">
+            <div class="input-group">                    
+                <input type="text" class="form-control input-nav" placeholder="Buscar">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-secondary"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cursos</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Físico-Matemáticas</a>
+                  <a class="dropdown-item" href="#">Ciencias Biológicas</a>
+                  <a class="dropdown-item" href="#">Ciencias Sociales</a>
+                  <a class="dropdown-item" href="#">Artes y Humanidades</a>
+                  <a class="dropdown-item" href="#">Idiomas</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html" data-value="miscursos">Mis Cursos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html" data-value="contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./TEAM /carrito.html" data-value="carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="profile.html">Mi Perfil</a>
+                  <a class="dropdown-item" href="profile.html">Mis Cursos</a>
+                  <a class="dropdown-item" href="./TEAM /carrito.html">Mi Carrito</a>
+                  <a class="dropdown-item" href="#">Configuración</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="seccion1">
+    <div class="container">
+        <div class="row" style="align-items:baseline;">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-img, d-flex justify-content-center" >
+                        <img src="./images/estrella.png" class="img-fluid" style="max-width: 3.5rem;"alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Certifícate</h4>
+                        <p class="card-text">Certificaciones oficiales.</p>
                     </div>
                 </div>
-            </form>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cursos</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Físico-Matemáticas</a>
-                      <a class="dropdown-item" href="#">Ciencias Biológicas</a>
-                      <a class="dropdown-item" href="#">Ciencias Sociales</a>
-                      <a class="dropdown-item" href="#">Artes y Humanidades</a>
-                      <a class="dropdown-item" href="#">Idiomas</a>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-value="miscursos">Mis Cursos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-value="contacto">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" data-value="carrito">
-                        <img class="cart" src="./images/carrito.png" alt="carrito de compra">
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Mi Perfil</a>
-                      <a class="dropdown-item" href="#">Mis Cursos</a>
-                      <a class="dropdown-item" href="#">Mi Carrito</a>
-                      <a class="dropdown-item" href="#">Configuración</a>
-                </li>
-            </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-img, d-flex justify-content-center">
+                        <img src="./images/foco.png" class="img-fluid" style="max-width: 3.5rem;" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Crea proyectos</h4>
+                        <p class="card-text">Haz crecer tu portafolio y comparte ideas con otras personas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-img, d-flex justify-content-center">
+                        <img src="./images/reloj.png" class="img-fluid" style="max-width: 3.5rem;"alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">A tu ritmo</h4>
+                        <p class="card-text">El material del curso está disponible las 24 horas. Estudia donde y cuando quieras.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </nav>
+    </div>
+</section>
+
+<section class="cursos">
+    <div class="container" style="max-width: 100%;">
+        <div class="row d-flex justify-content-center" style="margin-top: 8%; margin-bottom: 3%;">
+           <h2 style="font-weight: 800; color: #171933;">
+              Conoce nuestros cursos
+           </h2>
+        </div>
+        <div class="row py-3" style="padding: 10%;">
+            <div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+                <!--Card-->
+                <div class="card">
+                <!--Card image-->
+                <div class="product-image">
+                   <img src="../teamlearn/images/curso1.png" class="card-img-top" alt="photo">
+                </div>
+                <!--Card content-->
+                <div class="card-body">
+                   <!--Title-->
+                   <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Ilustración Digital, paso a paso</h4>
+                   <!-- //rating -->
+                   <p class="card-text" style="font-family: 'Lato', sans-serif;">Dominar la técnica de dibujo no es sencillo, sin embargo, yo te apoyaré para hacer todo más fácil </p>
+                </div>
+                <div class="card-footer bg-transparent d-flex justify-content-between">
+                   <span>Ahora
+                   <strong class="font-weight-bold">-75%</strong>
+                   </span>
+                   <div>
+                      <del class="text-muted mr-2">$500</del>
+                      <strong class="text-primary font-weight-bold">$299</strong>
+                   </div>
+                </div>
+                <div class="text-right text-b">
+                  <button class="btn btn-block btn-primary">
+                    <a href="descripcion.html">¡Lo quiero!</a>
+                  <i class="lnr lnr-chevron-right pl-2"></i>
+                  </button>
+               </div>
+             </div>
+             <!--/.Card-->
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+            <!--Card-->
+            <div class="card">
+            <!--Card image-->
+            <div class="product-image">
+               <img src="../teamlearn/images/curso2.png" class="card-img-top" alt="photo">
+            </div>
+            <!--Card content-->
+            <div class="card-body">
+               <!--Title-->
+               <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Pair of brown leather boots beside bet</h4>
+               <!-- //rating -->
+               <p class="card-text" style="font-family: 'Lato', sans-serif;">Take Bootstrap 4 to the next level with official free themes and snippets. </p>
+            </div>
+            <div class="card-footer bg-transparent d-flex justify-content-between">
+               <span>Ahora
+               <strong class="font-weight-bold">-75%</strong>
+               </span>
+               <div>
+                  <del class="text-muted mr-2">$300</del>
+                  <strong class="text-primary font-weight-bold">$75</strong>
+               </div>
+            </div>
+            <div class="text-right">
+              <button class="btn btn-block btn-primary">
+                ¡Lo quiero!
+              <i class="lnr lnr-chevron-right pl-2"></i>
+              </button>
+           </div>
+         </div>
+         <!--/.Card-->
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+        <!--Card-->
+        <div class="card">
+        <!--Card image-->
+        <div class="product-image">
+           <img src="../teamlearn/images/curso3.png" class="card-img-top" alt="photo">
+        </div>
+        <!--Card content-->
+        <div class="card-body">
+           <!--Title-->
+           <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Pair of brown leather boots beside bet</h4>
+           <!-- //rating -->
+           <p class="card-text" style="font-family: 'Lato', sans-serif;">Take Bootstrap 4 to the next level with official free themes and snippets. </p>
+        </div>
+        <div class="card-footer bg-transparent d-flex justify-content-between">
+           <span>Ahora
+           <strong class="font-weight-bold">-75%</strong>
+           </span>
+           <div>
+              <del class="text-muted mr-2">$300</del>
+              <strong class="text-primary font-weight-bold">$75</strong>
+           </div>
+        </div>
+        <div class="text-right">
+          <button class="btn btn-block btn-primary">
+            ¡Lo quiero!
+          <i class="lnr lnr-chevron-right pl-2"></i>
+          </button>
+       </div>
+     </div>
+     <!--/.Card-->
+  </div>
+
+  <div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+    <!--Card-->
+    <div class="card">
+    <!--Card image-->
+    <div class="product-image">
+       <img src="../teamlearn/images/curso4.png" class="card-img-top" alt="photo">
+    </div>
+    <!--Card content-->
+    <div class="card-body">
+       <!--Title-->
+       <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Pair of brown leather boots beside bet</h4>
+       <!-- //rating -->
+       <p class="card-text" style="font-family: 'Lato', sans-serif;">Take Bootstrap 4 to the next level with official free themes and snippets. </p>
+    </div>
+    <div class="card-footer bg-transparent d-flex justify-content-between">
+       <span>Ahora
+       <strong class="font-weight-bold">75% off</strong>
+       </span>
+       <div>
+          <del class="text-muted mr-2">$300</del>
+          <strong class="text-primary font-weight-bold">$75</strong>
+       </div>
+    </div>
+    <div class="text-right">
+      <button class="btn btn-block btn-primary">
+        ¡Lo quiero!
+      <i class="lnr lnr-chevron-right pl-2"></i>
+      </button>
+   </div>
+ </div>
+ <!--/.Card-->
+</div>
+
+<div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+    <!--Card-->
+    <div class="card">
+    <!--Card image-->
+    <div class="product-image">
+       <img src="../teamlearn/images/curso5.png" class="card-img-top" alt="photo">
+    </div>
+    <!--Card content-->
+    <div class="card-body">
+       <!--Title-->
+       <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Pair of brown leather boots beside bet</h4>
+       <!-- //rating -->
+       <p class="card-text" style="font-family: 'Lato', sans-serif;">Take Bootstrap 4 to the next level with official free themes and snippets. </p>
+    </div>
+    <div class="card-footer bg-transparent d-flex justify-content-between">
+       <span>Ahora
+       <strong class="font-weight-bold">-75%</strong>
+       </span>
+       <div>
+          <del class="text-muted mr-2">$300</del>
+          <strong class="text-primary font-weight-bold">$75</strong>
+       </div>
+    </div>
+    <div class="text-right">
+      <button class="btn btn-block btn-primary">
+        ¡Lo quiero!
+      <i class="lnr lnr-chevron-right pl-2"></i>
+      </button>
+   </div>
+ </div>
+ <!--/.Card-->
+</div>
+
+<div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+    <!--Card-->
+    <div class="card">
+    <!--Card image-->
+    <div class="product-image">
+       <img src="../teamlearn/images/curso6.png" class="card-img-top" alt="photo">
+    </div>
+    <!--Card content-->
+    <div class="card-body">
+       <!--Title-->
+       <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Pair of brown leather boots beside bet</h4>
+       <!-- //rating -->
+       <p class="card-text" style="font-family: 'Lato', sans-serif;">Take Bootstrap 4 to the next level with official free themes and snippets. </p>
+    </div>
+    <div class="card-footer bg-transparent d-flex justify-content-between">
+       <span>Ahora
+       <strong class="font-weight-bold">-75%</strong>
+       </span>
+       <div>
+          <del class="text-muted mr-2">$300</del>
+          <strong class="text-primary font-weight-bold">$75</strong>
+       </div>
+    </div>
+    <div class="text-right">
+      <button class="btn btn-block btn-primary">
+        ¡Lo quiero!
+      <i class="lnr lnr-chevron-right pl-2"></i>
+      </button>
+   </div>
+ </div>
+ <!--/.Card-->
+</div>
+
+<div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+    <!--Card-->
+    <div class="card">
+    <!--Card image-->
+    <div class="product-image">
+       <img src="../teamlearn/images/curso7.png" class="card-img-top" alt="photo">
+    </div>
+    <!--Card content-->
+    <div class="card-body">
+       <!--Title-->
+       <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Pair of brown leather boots beside bet</h4>
+       <!-- //rating -->
+       <p class="card-text" style="font-family: 'Lato', sans-serif;">Take Bootstrap 4 to the next level with official free themes and snippets. </p>
+    </div>
+    <div class="card-footer bg-transparent d-flex justify-content-between">
+       <span>Ahora
+       <strong class="font-weight-bold">-75%</strong>
+       </span>
+       <div>
+          <del class="text-muted mr-2">$300</del>
+          <strong class="text-primary font-weight-bold">$75</strong>
+       </div>
+    </div>
+    <div class="text-right">
+      <button class="btn btn-block btn-primary">
+        ¡Lo quiero!
+      <i class="lnr lnr-chevron-right pl-2"></i>
+      </button>
+   </div>
+ </div>
+ <!--/.Card-->
+</div>
+
+<div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+    <!--Card-->
+    <div class="card">
+    <!--Card image-->
+    <div class="product-image">
+       <img src="../teamlearn/images/curso8.png" class="card-img-top" alt="photo">
+    </div>
+    <!--Card content-->
+    <div class="card-body">
+       <!--Title-->
+       <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Pair of brown leather boots beside bet</h4>
+       <!-- //rating -->
+       <p class="card-text" style="font-family: 'Lato', sans-serif;">Take Bootstrap 4 to the next level with official free themes and snippets. </p>
+    </div>
+    <div class="card-footer bg-transparent d-flex justify-content-between">
+       <span>Ahora
+       <strong class="font-weight-bold">-75%</strong>
+       </span>
+       <div>
+          <del class="text-muted mr-2">$300</del>
+          <strong class="text-primary font-weight-bold">$75</strong>
+       </div>
+    </div>
+    <div class="text-right">
+      <button class="btn btn-block btn-primary">
+        ¡Lo quiero!
+      <i class="lnr lnr-chevron-right pl-2"></i>
+      </button>
+   </div>
+ </div>
+ <!--/.Card-->
+</div>
+
+<div class="col-lg-4 col-md-6 mb-12" style="margin-bottom: 2.5%;">
+    <!--Card-->
+    <div class="card">
+    <!--Card image-->
+    <div class="product-image">
+       <img src="../teamlearn/images/curso9.png" class="card-img-top" alt="photo">
+    </div>
+    <!--Card content-->
+    <div class="card-body">
+       <!--Title-->
+       <h4 class="card-title font-weight-bold mb-2" style="font-family: 'Montserrat Alternates', sans-serif;" >Pair of brown leather boots beside bet</h4>
+       <!-- //rating -->
+       <p class="card-text" style="font-family: 'Lato', sans-serif;">Take Bootstrap 4 to the next level with official free themes and snippets. </p>
+    </div>
+    <div class="card-footer bg-transparent d-flex justify-content-between">
+       <span>Ahora
+       <strong class="font-weight-bold">-75%</strong>
+       </span>
+       <div>
+          <del class="text-muted mr-2">$300</del>
+          <strong class="text-primary font-weight-bold">$75</strong>
+       </div>
+    </div>
+    <div class="text-right">
+      <button class="btn btn-block btn-primary">
+        ¡Lo quiero!
+      <i class="lnr lnr-chevron-right pl-2"></i>
+      </button>
+   </div>
+ </div>
+ <!--/.Card-->
+</div>
+
+        </div>
+
+        <button type="button" class="btn btn-link" style="margin-left: 47%; margin-bottom: 5%;" ><a href="#"> Ver todos →</a> </button>    
+    
+</section>
+
+
+
+<section class="counter">
+    <div class="container">
+        <div class="row">
+            <br/>
+           <div class="col text-center" style="margin-bottom:3%; margin-top: 3%;">
+            <h1 style="font-family: 'Montserrat Alternates', sans-serif; color: #f6a225;;">Formamos profesionales </h1>
+            </div> 
+            
+                 
+            
+        </div>
+            <div class="row text-center">
+                <div class="col">
+                <div class="counter" >
+                    <i class="fas fa-university fa-2x" ></i>
+          <h2 class="timer count-title count-number" data-to="100" data-speed="1500" ></h2>
+           <p class="count-text ">Estudiantes</p>
+        </div>
+                </div>
+                  <div class="col">
+                   <div class="counter">
+                    <i class="fas fa-book-open fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+          <p class="count-text ">Cursos</p>
+        </div>
+                  </div>
+                  <div class="col">
+                      <div class="counter">
+          <i class="fas fa-check fa-2x"></i>
+          <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+          <p class="count-text ">Proyectos completados</p>
+        </div></div>
+    
+                  </div>
+    </div>
+</section>
+
+<!-- Section: Testimonials v.2 -->
+<section class="text-center my-5" style="max-width: 60%; margin: auto;">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold my-5" style="font-family: 'Montserrat Alternates', sans-serif; color: #f6a225;" >Nuestros casos de éxito</h2>
+  
+    <div class="wrapper-carousel-fix">
+      <!-- Carousel Wrapper -->
+      <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel"
+        data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle img-fluid"
+                  alt="First sample avatar image">
+              </div>
+              <!--Content-->
+              <p style="font-family: 'Lato', sans-serif;">
+                <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+                eos
+                id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore
+                sit, aspernatur praesentium iste impedit quidem dolor veniam.
+              </p>
+              <h4 class="font-weight-bold" style="font-family: 'Lato', sans-serif;">Anna Deynah</h4>
+              <h6 class="font-weight-bold my-3" style="font-family: 'Lato', sans-serif;">Founder at ET Company</h6>
+              <!--Review-->
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star-half-alt blue-text"> </i>
+            </div>
+          </div>
+          <!--First slide-->
+          <!--Second slide-->
+          <div class="carousel-item">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid"
+                  alt="Second sample avatar image">
+              </div>
+              <!--Content-->
+              <p style="font-family: 'Lato', sans-serif;">
+                <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                odit
+                aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                non numquam eius modi tempora incidunt ut labore. </p>
+              <h4 class="font-weight-bold" style="font-family: 'Lato', sans-serif;">Maria Kate</h4>
+              <h6 class="font-weight-bold my-3"style="font-family: 'Lato', sans-serif;">Photographer at Studio LA</h6>
+              <!--Review-->
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+            </div>
+          </div>
+          <!--Second slide-->
+          <!--Third slide-->
+          <div class="carousel-item">
+            <div class="testimonial">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle img-fluid"
+                  alt="Third sample avatar image">
+              </div>
+              <!--Content-->
+              <p>
+                <i class="fas fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                error sit voluptatem accusantium doloremque laudantium.</p>
+              <h4 class="font-weight-bold">John Doe</h4>
+              <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+              <!--Review-->
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="fas fa-star blue-text"> </i>
+              <i class="far fa-star blue-text"> </i>
+            </div>
+          </div>
+          <!--Third slide-->
+        </div>
+        <!--Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
+          data-slide="prev">
+          <span class="icon-prev" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
+          data-slide="next">
+          <span class="icon-next" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!--Controls-->
+      </div>
+      <!-- Carousel Wrapper -->
+    </div>
+  
+  </section>
+  <!-- Section: Testimonials v.2 -->
+
+
+
+
+
+   
+    
+
+
+
+
+
+
 </body>
+
+<section>
+    <footer class="page-footer font-small">
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 mx-auto mt-5 d-footer">
+                        <h6 class="mb-4 mt-Team">Team Learning</h6>
+                        <p>Una plataforma virtual para todos aquellas personas que buscan aprender sin fronteras</p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none d-footer">
+                    <div class="col-lg-2 col-md-2 col-sm-12 mx-auto mt-5 d-footer text-center text-md-left">
+                        <h6 class="mb-4">Cursos</h6>
+                        <p>
+                          <a href="#!">Físico-Matemáticas</a>
+                        </p>
+                        <p>
+                          <a href="#!">Ciencias Biológicas</a>
+                        </p>
+                        <p>
+                          <a href="#!">Ciencias Sociales</a>
+                        </p>
+                        <p>
+                          <a href="#!">Artes y Humanidades</a>
+                        </p>
+                        <p>
+                           <a href="#!">Idiomas</a>
+                        </p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none d-footer">
+                    <div class="col-lg-2 col-md-2 col-sm-12 mx-auto mt-5 d-footer text-center text-md-left">
+                        <h6 class="mb-4">Mi Cuenta</h6>
+                        <p>
+                          <a href="profile.html">Mi Perfil</a>
+                        </p>
+                        <p>
+                          <a href="profile.html">Mis Cursos</a>
+                        </p>
+                        <p>
+                          <a href="./TEAM /carrito.html">Mi Carrito</a>
+                        </p>
+                        <p>
+                          <a href="#!">Configuración</a>
+                        </p>
+                    </div>
+                    <hr class="w-100 clearfix d-md-none d-footer">
+                    <div class="col-lg-3 col-md-4 col-sm-12 mx-auto mt-5 text-center text-md-left">
+                        <h6 class="mb-4">Contacto</h6>
+                        <p>
+                          <i class="fas fa-home mr-3"></i> Roma Nte., CDMX 03300, MX</p>
+                        <p>
+                          <i class="fas fa-envelope mr-3"></i>contacto@teamlearning.com</p>
+                        <p>
+                          <i class="fas fa-phone mr-3"></i>56 01 50 82
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-8 col-md-7">
+                        <p class="text-center text-md-left">© 2020 Copyright:
+                          <a href="#">
+                             <strong>Guachicanos</strong> by Valeria Uribe
+                          </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-5">
+                        <div class="text-center text-md-right">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                  <i class="fab fa-facebook-f"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                  <i class="fab fa-twitter"></i>
+                                </a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                  <i class="fab fa-linkedin-in"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="./js/script.js"></script>
+<script src="pag.js"></script>
 </html>

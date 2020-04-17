@@ -1,0 +1,209 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #005182;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #171933 !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: #171933;
+}
+
+.input-nav {
+border-radius: 20px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #171933;
+    border-color: #171933;
+    border-radius: 20px;
+}
+
+.nav-item  a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #f6a225 !important;
+}
+
+.nav-item  a:hover {
+    color: #171933 !important;
+}
+
+.cart {
+    width: 25px;
+    height: auto;
+}
+
+.cart:hover {
+    color: #171933;
+}
+
+.card-body h4 {
+    color: #f6a225;
+}
+
+
+
+@media only screen and (min-width: 1400px){
+    .form-inline .input-group {
+        width: 500px;
+        margin-left: 200px;
+    }
+
+}
+
+html,body{
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    background-image: url(../images/cabecera.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 80.1%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(41, 41, 41, 0.6);
+}
+
+.description{
+    position: absolute;
+    top: 25%;
+    color: white;
+    margin: auto;
+    padding: .5rem;
+}
+
+
+.description p{
+    max-width: 77%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.description h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.seccion1 .card{
+    border: none;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: -10%;
+}
+
+.seccion1 .container-row{
+    max-width: 60%;
+    margin-bottom: 80px;
+}
+
+.seccion1 h4{
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.card-body ul li {
+  line-height:1.8;
+  font-size:14px;
+}
+
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+
+.text-right button {
+    background-color: #005182;
+    border: none;
+}
+
+.text-right button:hover {
+    background-color: #171933;
+    border: none;
+}
+
+.text-right button > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cursos h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#footer {
+    background-color: #171933;
+}
+
+#footer h6 {
+    color: #f6a225;
+}
+
+#footer a, #footer p {
+    color: #fff;
+}
+
+#footer hr {
+    border-top: 1px solid #fff;
+}
+
+#footer a:hover {
+    color: #00a8cd;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 375px){
+    .d-footer {
+        display: none;
+    }
+}
