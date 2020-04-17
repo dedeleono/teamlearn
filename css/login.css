@@ -7,6 +7,10 @@
 .title{
     font-size: 27px;
 }
+
+.title a:hover{
+    text-decoration: none;
+}
 /*Seccion de iconos-social*/
 
 .row{
