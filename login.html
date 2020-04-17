@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Inicia Sesión o <a href="#">Crea una nueva cuenta</a></h3>
+        <div class="row">
+            <div class="icon-container">
+                <a href="https://www.github.com/" class="git-icon btn"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.twitter.com/" class="twitter-icon btn"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.facebook.com/" class="facebook-icon btn"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://myaccount.google.com/" class="g-icon btn"><i class="fab fa-google-plus-square"></i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <hr class="hr-middle">
+            <span class="or">or</span>
+            <hr class="hr-middle">
+        </div>
+
+        <div class="form-container">
+
+            <div class="form-group">
+                <input type="text" class="form-control form-control-lg form-design" placeholder="e-mail" name="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="form-control form-control-lg form-design" placeholder="password" name="password" id="password">
+                    <small class="d-none" id="smallError">Asegúrate de ingresar la información correcta</small>
+            </div>
+            
+    
+            <button type="button" class="btn btn-primary btn-lg" id="btn-login">Iniciar Sesión</button>
+        </div>
+
+
+        </div>
+
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
