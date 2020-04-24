@@ -1,0 +1,78 @@
+.container{
+    font-family: 'Montserrat', sans-serif;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.title{
+    font-size: 27px;
+}
+
+.title a:hover{
+    text-decoration: none;
+}
+/*Seccion de iconos-social*/
+
+.row{
+    padding-top: 2rem; 
+    margin: 0;
+}
+
+.icon-container{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.git-icon{
+    font-size: 4rem;
+    color: rgb(110, 124, 124);
+}
+
+.facebook-icon{
+    font-size: 4rem;
+    color: #4267b2;
+}
+
+.twitter-icon{
+    color: #1DA1F2;
+    font-size: 4rem;
+}
+
+.g-icon{
+    color: #db4a39;
+    font-size: 4rem;
+}
+
+.or{
+    padding-bottom: 2.5rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/*end*/
+
+/*Seccion input*/
+
+.hr-middle{
+    border: black solid 0.05rem;
+}
+
+.row-inputs{
+    text-align: center;
+}
+
+.form-design{
+    width: 35%;
+    margin-left: 23rem;
+}
+
+#smallError{
+    color: red;
+}
+
+#btn-login{
+    background-color: #000839;
+    font-size: 15px;
+    font-weight: 600;
+}
